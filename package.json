@@ -1,0 +1,22 @@
+{
+  "name": "one-dark-syntax-colors-of-the-year-pantone",
+  "theme": "syntax",
+  "version": "2.0.0",
+  "description": "A dark syntax theme - using pantone's colors of the year - javascript and flow focused",
+  "keywords": [
+    "dark",
+    "blue",
+    "colors of the year",
+    "pantone",
+    "flow",
+    "js",
+    "atom",
+    "syntax",
+    "purple"
+  ],
+  "repository": "https://github.com/aretecode/one-dark-syntax-colors-of-the-year-pantone",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

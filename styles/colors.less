@@ -1,0 +1,107 @@
+
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
+
+// 1° 74% 88%, f7cac9
+@color-rose-quartz: hsl(1, 74%, 88%);
+// f7786b
+@color-peach-echo: hsl(6, 90%, 69%);
+// 91A8d0
+@color-serenity: hsl(218, 40%, 69%);
+// 034f84
+@color-snorkel-blue: hsl(205, 96%, 26%);
+// fae03c
+@color-buttercup: hsl(52, 95%, 61%);
+// 98ddde
+@color-limpet-shell: hsl(181, 51%, 73%);
+// 9896a4
+@color-lilac-grey: hsl(249, 7%, 62%);
+// dd4132
+@color-fiesta: hsl(5, 72%, 53%);
+// b18f6a
+@color-iced-coffee: hsl(31, 31%, 55%);
+// 79c753
+@color-green-flash: hsl(100, 51%, 55%);
+
+@color-radiant-orchid: hsl(311, 33%, 54%);
+
+@color-greenery: hsl(84, 40%, 49%);
+@color-emerald: hsl(166, 100%, 30%);
+
+@color-reflex-blue: hsl(231, 100%, 27%);
+@color-reflex-blue-light: lighten(@color-reflex-blue, 33%);
+@color-reflex-blue-u: hsl(230, 46%, 42%);
+@color-reflex-blue-uu: hsl(238, 47%, 60%); // , 46
+@color-process-blue: hsl(200, 100%, 40%);
+
+// 7FCDCD
+@color-aqua-sky: hsl(180, 44%, 65%);
+
+@color-turquoise: hsl(174, 45%, 50%);
+@color-blue-turquoise: hsl(177, 39%, 52%);
+
+@color-vibrant-blue: hsl(208, 88%, 51%);
+@color-vibrant-blue-faded: fade(@color-vibrant-blue, 88%);
+@color-cerulean: hsl(212, 41%, 71%);
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 14%, 71%); // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+
+// Colors -----------------------------------
+
+// # cyan
+@hue-1: hsl(174, 40%, 50%);
+// @hue-1: hsl(187, 47%, 55%);
+
+// #blue
+@hue-2:   hsl(207, 82%, 66%);
+// @hue-2: @color-blue-turquoise;
+// @hue-2: @color-serenity;
+// @hue-2: hsl(211, 88%, 75%); // <-brighter
+
+// #purple
+@hue-3: hsl(263, 91%, 66%);
+@hue-3-1: lighten(fade(@hue-3, 33%), 33%);
+// @hue-3:  hsl(286, 60%, 67%); // <-original
+
+// #green
+@hue-4: @color-greenery;
+// @hue-4: @color-emerald;
+// @hue-4: hsl( 95, 38%, 62%);
+
+// #red
+@color-honeysuckle: hsl(343, 62%, 58%);
+@hue-5: @color-honeysuckle;
+@hue-5-2: hsl(  5, 48%, 51%);
+// @hue-5:   hsl(355, 65%, 65%);
+
+// #orange
+@hue-6: hsl(14, 71%, 57%);
+// @hue-6:   hsl( 29, 54%, 61%);
+// @hue-6-2: hsl( 39, 67%, 69%);
+// @hue-6:   hsl( 48, 71%, 76%);
+// @hue-6: @color-honeysuckle;
+
+// #yellow
+@color-mimosa: hsl(42, 83%, 63%);
+@hue-6-2: @color-mimosa;
+@hue-6-3: fade(@color-mimosa, 88%);
+// @hue-6-2: hsl(41, 98%, 70%);
+
+// #red
+@color-tangerine: hsl(10, 72%, 57%);
+@color-fushia: hsl(334, 51%, 52%);
+// @color-tangerine: hsl(9, 73%, 50%);
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-fg, 26%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );

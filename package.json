@@ -1,7 +1,7 @@
 {
   "name": "one-dark-syntax-colors-of-the-year-pantone",
   "theme": "syntax",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A dark syntax theme - using pantone's colors of the year - javascript and flow focused",
   "keywords": [
     "dark",
